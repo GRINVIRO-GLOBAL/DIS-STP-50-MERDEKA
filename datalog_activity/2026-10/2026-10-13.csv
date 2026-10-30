@@ -1,0 +1,5 @@
+Timestamp,User,Action,Details
+2026-10-13 11:56:09,admin,Manual Start,Started MBR Blower 01A (BL-01A) (BL_01A)
+2026-10-13 11:56:12,admin,Manual Stop,Stopped MBR Blower 01A (BL-01A) (BL_01A)
+2026-10-13 11:56:14,admin,Manual Start,Started Auto Valve 102 (AV-102) (ACT_02)
+2026-10-13 11:56:16,admin,Manual Stop,Stopped Auto Valve 102 (AV-102) (ACT_02)

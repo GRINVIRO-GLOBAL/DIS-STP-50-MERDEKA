@@ -1,0 +1,342 @@
+/*---------------------------------------------------QWidgets---------------------------------------------------*/
+/*-----Dashboard-----*/
+QWidget#dashboardWindow {
+	background-color: hsl(0, 0%, 85%);
+}
+
+QWidget#topBar {
+	background-color: hsl(104, 86%, 63%);
+}
+
+QWidget#menu, #menu_2, #miscMenu {
+	background-color: hsl(122, 52%, 45%);
+}
+
+QWidget#instrumentParameter_window, #PNID_window, #maintenance_config_panel {
+	background-color: hsl(0, 2%, 88%);
+	border-radius: 10px;
+}
+
+/*sideBar*/
+QWidget#closedSideBar, #openedSideBar {
+	background-color: #052460;
+}
+
+QWidget#menu_option {
+	background-color: hsl(122, 52%, 45%);
+}
+
+/*-----Alarm-----*/
+QWidget#active1, #active2, #active3, #active4,
+#event1, #event2, #event3, #event4 {
+	background-color: hsl(0, 0, 85%);
+	border-radius: 20px;
+}
+
+/*---------------------------------------------------QStackedWidget---------------------------------------------------*/
+QStackedWidget {
+	background-color: hsl(0, 0%, 95%);
+}
+
+QStackedWidget > QWidget {
+    background-color: transparent;
+}
+
+/*---------------------------------------------------QTableWidget---------------------------------------------------*/
+QTableWidget#tableWidget {
+	border: 1px solid black;
+	background-color: white;
+	gridline-color: #dcdcdc;
+}
+
+QTableWidget::item {
+	padding: 5px;
+}
+
+/*---------------------------------------------------QListWidget---------------------------------------------------*/
+/* Styles for the Maintenance Log List */
+QListWidget#logList {
+	background-color: white;
+	border: 1px solid #c0c0c0;
+	border-radius: 10px;
+	outline: none;
+}
+
+QListWidget#logList::item {
+	border-bottom: 1px solid #dcdcdc;
+	padding: 10px;
+	margin: 2px 5px;
+}
+
+QListWidget#logList::item:selected {
+	background-color: hsl(212, 57%, 40%);
+	color: white;
+	border-radius: 5px;
+}
+
+QListWidget#logList::item:hover {
+	background-color: hsl(212, 57%, 90%);
+}
+
+/*---------------------------------------------------QLineEdit & QTextBrowser---------------------------------------------------*/
+/* Maintenance Detail Fields */
+QLineEdit#detail_name, QLineEdit#detail_status, 
+QLineEdit#detail_date, QLineEdit#detail_date_2 {
+	border: 1px solid #c0c0c0;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: white;
+}
+
+QTextBrowser#detail_issue {
+	border: 1px solid #c0c0c0;
+	border-radius: 5px;
+	background-color: white;
+}
+
+/*---------------------------------------------------QLabel---------------------------------------------------*/
+QLabel {
+	font-family: Roboto;
+}
+
+/* Locked Process Flow Diagram (PFD) Info Labels */
+QLabel#label_83, QLabel#label_84, QLabel#label_85, QLabel#label_76, QLabel#label_77 {
+	font-family: "Segoe UI", Roboto, Arial, sans-serif;
+	font-size: 8px;
+	font-weight: bold;
+	background-color: transparent;
+}
+
+QLabel#flow_FT101, QLabel#flow_FT102, QLabel#flow_FT103, QLabel#flow_PT101 {
+	font-family: "Segoe UI", Roboto, Arial, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	background-color: transparent;
+}
+
+QLabel#welcomeText {
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	background-color: hsl(212, 57%, 40%);
+	border-radius: 12px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/* Maintenance Headers */
+QLabel#label_list_title, QLabel#lbl_maint_config {
+	font-weight: bold;
+	color: #333;
+}
+
+QLabel#lbl_agenda_title {
+	font-weight: bold;
+	color: hsl(212, 57%, 40%);
+	font-size: 18px;
+}
+
+/*---------------------------------------------------QPushButton-----------------------------------------------------------*/
+QPushButton {
+	font-family: Roboto;
+}
+
+/* --- SIDEBAR BUTTONS (Tetap QPushButton) --- */
+QPushButton#btn1_plantDetails_2, #btn2_importData_2, #btn3_exportData_2,
+#btn4_reports_2, #btn6_activityLog_2, #btn7_logout_2,
+#btn1_plantDetails, #btn2_importData, #btn3_exportData,
+#btn4_reports, #btn6_activityLog, #btn7_logout {
+	background-color: #052460;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+QPushButton#btn0_menu, #btn0_menu_2 {
+	background-color: #052460;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/* --- DASHBOARD: PROCESS BUTTONS (Tetap QPushButton) --- */
+QPushButton#btn1_processFlowDiagram, #btn2_instrumentParameter {
+	font-weight: bold;
+	font-size: 20px;
+	background-color: hsl(32, 100%, 50%);
+	border-radius: 12px;
+	border: 2px solid black;
+}
+
+QPushButton#btn1_processFlowDiagram:hover, #btn2_instrumentParameter:hover {
+	background-color: hsl(32, 100%, 60%);
+}
+
+QPushButton#btn1_processFlowDiagram:pressed, #btn2_instrumentParameter:pressed {
+	background-color: hsl(32, 100%, 40%);
+}
+
+/* --- DASHBOARD: EMERGENCY STOP (UPDATED to QToolButton) --- */
+/* Style as a real E-STOP: Red BG, White Text, Thick Black Border */
+QToolButton#btn_estop {
+	background-color: rgb(220, 0, 0); /* Safety Red */
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	border: 3px solid black; 
+	border-radius: 43px; /* Sesuai geometry di .ui (86x86) -> radius ~43px */
+}
+
+QToolButton#btn_estop:hover {
+	background-color: rgb(255, 50, 50); /* Brighter Red */
+	border-color: rgb(50, 50, 50);
+}
+
+QToolButton#btn_estop:pressed {
+	background-color: rgb(150, 0, 0); /* Darker Red */
+	border-color: white;
+}
+
+/* --- DASHBOARD: AUTO / MANUAL MODE (UPDATED to QToolButton) --- */
+QToolButton#btn_manual, #btn_auto {
+	background-color: hsl(0, 0%, 90%);
+	border: 2px solid #555;
+	border-radius: 43px; /* Sesuai geometry di .ui (86x86) */
+	font-weight: bold;
+	color: black;
+}
+
+QToolButton#btn_manual:hover, #btn_auto:hover {
+	background-color: white;
+	border-color: black;
+}
+
+QToolButton#btn_manual:pressed, #btn_auto:pressed {
+	background-color: hsl(0, 0%, 70%);
+}
+
+/* --- DASHBOARD: EQUIPMENT ICONS (UPDATED to QToolButton) --- */
+/* Pumps, Blowers, Mixers - Default State (Off/Transparent) */
+QToolButton#btn_TP_04, QToolButton#btn_TP_03A, QToolButton#btn_TP_03B,
+QToolButton#btn_TP_Inlet, QToolButton#btn_TP_02B, QToolButton#btn_TP_02A,
+QToolButton#btn_TP_01B, QToolButton#btn_TP_01A,
+QToolButton#btn_SM_02, QToolButton#btn_SM_01,
+QToolButton#btn_BL_01A, QToolButton#btn_BL_01B,
+QToolButton#btn_DP_01 {
+	background-color: transparent;
+	border: none;
+}
+
+/* Hover Effect */
+QToolButton#btn_TP_04:hover, QToolButton#btn_TP_03A:hover, QToolButton#btn_TP_03B:hover,
+QToolButton#btn_TP_Inlet:hover, QToolButton#btn_TP_02B:hover, QToolButton#btn_TP_02A:hover,
+QToolButton#btn_TP_01B:hover, QToolButton#btn_TP_01A:hover, QToolButton#btn_AV101:hover,
+QToolButton#btn_SM_02:hover, QToolButton#btn_SM_01:hover, QToolButton#btn_AV102:hover,
+QToolButton#btn_BL_01A:hover, QToolButton#btn_BL_01B:hover,
+QToolButton#btn_DP_01:hover {
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 5px;
+}
+
+
+/* --- MAINTENANCE & DATA BUTTONS (Tetap QPushButton) --- */
+QPushButton#dashboard_btn_addInstrument,
+QPushButton#btn_shift_config, 
+QPushButton#btn_transmitter_config, 
+QPushButton#btn_ceb_maintenance,
+QPushButton#btn_view_sensor,
+QPushButton#btn_view_runtime,
+QPushButton#btn_view_totalizer {
+	border-radius: 10px;
+	border: 2px solid black;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	background-color: hsl(26, 86%, 55%); /* Orange Theme */
+}
+
+QPushButton#dashboard_btn_addInstrument:hover,
+QPushButton#btn_shift_config:hover, 
+QPushButton#btn_transmitter_config:hover, 
+QPushButton#btn_ceb_maintenance:hover,
+QPushButton#btn_view_sensor:hover,
+QPushButton#btn_view_runtime:hover,
+QPushButton#btn_view_totalizer:hover {
+	background-color: hsl(26, 86%, 65%);
+}
+
+QPushButton#dashboard_btn_addInstrument:pressed,
+QPushButton#btn_shift_config:pressed, 
+QPushButton#btn_transmitter_config:pressed, 
+QPushButton#btn_ceb_maintenance:pressed,
+QPushButton#btn_view_sensor:pressed,
+QPushButton#btn_view_runtime:pressed,
+QPushButton#btn_view_totalizer:pressed {
+	background-color: hsl(26, 86%, 45%);
+}
+
+/* Maintenance Navigation & Actions */
+QPushButton#pushButton_2 {
+	border: 1px solid #555;
+	border-radius: 5px;
+	background-color: white;
+	padding: 5px;
+}
+
+QPushButton#btn_prev, #btn_next, #btn_back {
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: hsl(32, 100%, 50%);
+	padding: 5px;
+}
+
+QPushButton#btn_prev:hover, #btn_next:hover, #btn_back:hover, #pushButton_2:hover {
+	background-color: #f0f0f0;
+	border-color: black;
+}
+
+/* Maintenance Done Button */
+QPushButton#pushButton {
+	background-color: hsl(120, 60%, 40%); /* Green */
+	color: white;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 16px;
+}
+QPushButton#pushButton:hover {
+	background-color: hsl(120, 60%, 50%);
+}
+
+/* --- ALARM BUTTONS (Top Menu juga menggunakan QToolButton di .ui, tapi style ini untuk tombol menu Alarm) --- */
+/* Jika tombol ini di dalam menu Alarm (Widget options) masih QPushButton, biarkan. 
+   Jika di TopBar (icon besar), mereka adalah QToolButton, tambahkan style ini jika perlu: */
+
+/* Menu Top Bar (Dashboard, Data, Maint, Alarm) */
+QToolButton#dashboardMenu_btn, QToolButton#dataMenu_btn, 
+QToolButton#maintenanceMenu_btn, QToolButton#alarmMenu_btn {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+QToolButton#dashboardMenu_btn:hover, QToolButton#dataMenu_btn:hover, 
+QToolButton#maintenanceMenu_btn:hover, QToolButton#alarmMenu_btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+/* Tombol di Halaman Alarm (Sub-menu) */
+QPushButton#btn2_ActiveAlarms, #btn3_EventLog {
+	color: white;	
+	background-color: hsl(211, 86%, 50%);
+	font-size: 20px;
+	font-weight: bold;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+QPushButton#btn2_ActiveAlarms:hover, #btn3_EventLog:hover {
+	background-color: hsl(211, 86%, 60%);
+}
+
+QPushButton#btn2_ActiveAlarms:pressed, #btn3_EventLog:pressed {
+	background-color: hsl(211, 86%, 70%);
+}

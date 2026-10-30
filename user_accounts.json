@@ -1,0 +1,22 @@
+[
+    {
+        "username": "guest",
+        "password": "guest",
+        "access_level": "guest"
+    },
+    {
+        "username": "operator",
+        "password": "operator",
+        "access_level": "operator"
+    },
+    {
+        "username": "admin",
+        "password": "admin",
+        "access_level": "admin"
+    },
+    {
+        "username": "engineer",
+        "password": "engineer",
+        "access_level": "engineer"
+    }
+]

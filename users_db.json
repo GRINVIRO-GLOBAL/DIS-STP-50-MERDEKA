@@ -1,0 +1,7 @@
+{
+    "admin": {
+        "password": "3e6c16036de383b5f910e3b7f0a31fe29329030a0af989ac8f71c5cb8db3a498",
+        "salt": "3f99b17d497d44e88b773d66a789ff77",
+        "role": "admin"
+    }
+}

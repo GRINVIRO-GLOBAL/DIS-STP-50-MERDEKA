@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>alarm_creation_window</class>
+ <widget class="QWidget" name="alarm_creation_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_7">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="top_widget" native="true">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(5, 36, 96);
+color: white;</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="top_widget_label">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Transmitter Configuration</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="alarm_name" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,3">
+      <property name="leftMargin">
+       <number>10</number>
+      </property>
+      <property name="topMargin">
+       <number>10</number>
+      </property>
+      <property name="rightMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>10</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="alarm_name_label">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Components:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>35</height>
+         </size>
+        </property>
+        <item>
+         <property name="text">
+          <string>LT EQ-01</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>LT AE-01</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>LT MBR-01</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>FT MBR</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>FT BACKWASH</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>PT 101</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="alarm_setting" native="true">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(5, 36, 96);</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QLabel" name="alarm_setting_label">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>Configuration:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="alarm_setting_bg" native="true">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(240, 240, 240);</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <property name="leftMargin">
+          <number>10</number>
+         </property>
+         <property name="rightMargin">
+          <number>10</number>
+         </property>
+         <item>
+          <layout class="QHBoxLayout" name="row_hh">
+           <item>
+            <widget class="QLabel" name="lbl_hh">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>HH:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="line_hh">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="placeholderText">
+              <string>Value</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="unit_hh">
+             <property name="text">
+              <string>cm</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="spacer_hh">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="lbl_alarm_hh">
+             <property name="text">
+              <string>Alarm:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="combo_hh">
+             <property name="minimumSize">
+              <size>
+               <width>120</width>
+               <height>35</height>
+              </size>
+             </property>
+             <item>
+              <property name="text">
+               <string>Warning</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Fault</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="row_hi">
+           <item>
+            <widget class="QLabel" name="lbl_hi">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>HI:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="line_hi">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="placeholderText">
+              <string>Value</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="unit_hi">
+             <property name="text">
+              <string>cm</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="spacer_hi">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="lbl_alarm_hi">
+             <property name="text">
+              <string>Alarm:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="combo_hi">
+             <property name="minimumSize">
+              <size>
+               <width>120</width>
+               <height>35</height>
+              </size>
+             </property>
+             <item>
+              <property name="text">
+               <string>Warning</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Fault</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="row_lo">
+           <item>
+            <widget class="QLabel" name="lbl_lo">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>LO:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="line_lo">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="placeholderText">
+              <string>Value</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="unit_lo">
+             <property name="text">
+              <string>cm</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="spacer_lo">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="lbl_alarm_lo">
+             <property name="text">
+              <string>Alarm:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="combo_lo">
+             <property name="minimumSize">
+              <size>
+               <width>120</width>
+               <height>35</height>
+              </size>
+             </property>
+             <item>
+              <property name="text">
+               <string>Warning</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Fault</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="row_ll">
+           <item>
+            <widget class="QLabel" name="lbl_ll">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>LL:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="line_ll">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="placeholderText">
+              <string>Value</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="unit_ll">
+             <property name="text">
+              <string>cm</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="spacer_ll">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="lbl_alarm_ll">
+             <property name="text">
+              <string>Alarm:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="combo_ll">
+             <property name="minimumSize">
+              <size>
+               <width>120</width>
+               <height>35</height>
+              </size>
+             </property>
+             <item>
+              <property name="text">
+               <string>Warning</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Fault</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="recipient_setting" native="true">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(5, 36, 96);</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item>
+       <widget class="QLabel" name="recipient_setting_label">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="text">
+         <string>Recipient Setting:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="recipient_setting_bg" native="true">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(240, 240, 240);</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_6" stretch="1,6">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="recipient_data" native="true">
+           <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="1,3,1">
+            <property name="topMargin">
+             <number>5</number>
+            </property>
+            <property name="bottomMargin">
+             <number>5</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="recipient_label">
+              <property name="text">
+               <string>Recipient:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="recipient_email">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>40</height>
+               </size>
+              </property>
+              <item>
+               <property name="text">
+                <string>grinV.01@gmail.com</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>grinV.02@gmail.com</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>grinV.03@gmail.com</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="add_recipient_btn">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>40</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string>Add new recipient</string>
+              </property>
+              <property name="checkable">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="message_to_recipient" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <property name="leftMargin">
+             <number>10</number>
+            </property>
+            <property name="topMargin">
+             <number>10</number>
+            </property>
+            <property name="rightMargin">
+             <number>10</number>
+            </property>
+            <property name="bottomMargin">
+             <number>10</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="message_to_recipient_label">
+              <property name="maximumSize">
+               <size>
+                <width>16777211</width>
+                <height>500</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Message to recipient:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTextEdit" name="message_to_recipient_data">
+              <property name="styleSheet">
+               <string notr="true">border: 1px solid black; </string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="bottom_widget" native="true">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(5, 36, 96);</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>353</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="cancel_btn">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(240, 240, 240);</string>
+        </property>
+        <property name="text">
+         <string>Cancel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="create_btn">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(240, 240, 240);</string>
+        </property>
+        <property name="text">
+         <string>Apply</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

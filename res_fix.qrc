@@ -1,0 +1,156 @@
+<RCC>
+  <qresource prefix="alarmPage">
+    <file>Icons/AlarmPage/Add.png</file>
+    <file>Icons/AlarmPage/Alarm Clock.png</file>
+    <file>Icons/AlarmPage/Inscription.png</file>
+    <file>Icons/AlarmPage/Low Risk.png</file>
+    <file>Icons/AlarmPage/Paper Plane.png</file>
+  </qresource>
+  <qresource prefix="FFI_icons">
+    <file>Icons/FFI_project/L pipe junction (orange) 90.png</file>
+    <file>Icons/FFI_project/L pipe overflow 90.png</file>
+    <file>Icons/FFI_project/L pipe overflow 180.png</file>
+    <file>Icons/FFI_project/L pipe junction (orange) 180.png</file>
+    <file>Icons/FFI_project/Butterfly valve (Closed) Mirror.png</file>
+    <file>Icons/FFI_project/blue joint V.png</file>
+    <file>Icons/FFI_project/Auto valve (Rev1) V.png</file>
+    <file>Icons/FFI_project/Auto valve (Rev1).png</file>
+    <file>Icons/FFI_project/PT with bar.png</file>
+    <file>Icons/FFI_project/Butterfly valve (Closed) V.png</file>
+    <file>Icons/FFI_project/Butterfly valve (Opened) V.png</file>
+    <file>Icons/FFI_project/Butterfly valve (Closed).png</file>
+    <file>Icons/FFI_project/Butterfly valve (Opened).png</file>
+    <file>Icons/FFI_project/Check valve V.png</file>
+    <file>Icons/FFI_project/Ball valve V.png</file>
+    <file>Icons/FFI_project/Ball valve.png</file>
+    <file>Icons/FFI_project/1Motor.png</file>
+    <file>Icons/FFI_project/Check valve.png</file>
+    <file>Icons/FFI_project/Bio film.png</file>
+    <file>Icons/FFI_project/Bio basket.png</file>
+    <file>Icons/FFI_project/Level Switch.png</file>
+    <file>Icons/FFI_project/L pipe junction (yellow) 180.png</file>
+    <file>Icons/FFI_project/Flow Transmitter.png</file>
+    <file>Icons/FFI_project/Pressure Gauge.png</file>
+    <file>Icons/FFI_project/Holder LT.png</file>
+    <file>Icons/FFI_project/Level Transmitter.png</file>
+    <file>Icons/FFI_project/Motor mirror.png</file>
+    <file>Icons/FFI_project/Air blower.png</file>
+    <file>Icons/FFI_project/Submersible mixer.png</file>
+    <file>Icons/FFI_project/Chemical dosing tank-rev.png</file>
+    <file>Icons/FFI_project/L pipe junction (yellow) 90.png</file>
+    <file>Icons/FFI_project/L pipe junction (yellow) 270.png</file>
+    <file>Icons/FFI_project/L pipe junction (yellow).png</file>
+    <file>Icons/FFI_project/Long Pipe (yellow) V.png</file>
+    <file>Icons/FFI_project/Long Pipe (yellow).png</file>
+    <file>Icons/FFI_project/Pipe (yellow) V.png</file>
+    <file>Icons/FFI_project/Pipe (yellow).png</file>
+    <file>Icons/FFI_project/T pipe junction (yellow) left.png</file>
+    <file>Icons/FFI_project/T pipe junction (yellow) up.png</file>
+    <file>Icons/FFI_project/T pipe junction (yellow).png</file>
+    <file>Icons/FFI_project/Motor 90.png</file>
+    <file>Icons/FFI_project/Motor H.png</file>
+    <file>Icons/FFI_project/AE-01 (Water).png</file>
+    <file>Icons/FFI_project/AE-01.png</file>
+    <file>Icons/FFI_project/AE-02 (Water).png</file>
+    <file>Icons/FFI_project/AE-02.png</file>
+    <file>Icons/FFI_project/Air blower (Fan).png</file>
+    <file>Icons/FFI_project/Air blower.png</file>
+    <file>Icons/FFI_project/Chemical Dosing tank.png</file>
+    <file>Icons/FFI_project/EQ-01 (Water).png</file>
+    <file>Icons/FFI_project/EQ-01.png</file>
+    <file>Icons/FFI_project/Four pipe junction.png</file>
+    <file>Icons/FFI_project/Inlet tank (Water).png</file>
+    <file>Icons/FFI_project/Inlet tank.png</file>
+    <file>Icons/FFI_project/L pipe junction 90.png</file>
+    <file>Icons/FFI_project/L pipe junction 180.png</file>
+    <file>Icons/FFI_project/L pipe junction 270.png</file>
+    <file>Icons/FFI_project/L pipe junction.png</file>
+    <file>Icons/FFI_project/Long Pipe V.png</file>
+    <file>Icons/FFI_project/Long Pipe.png</file>
+    <file>Icons/FFI_project/MBR (Water).png</file>
+    <file>Icons/FFI_project/MBR.png</file>
+    <file>Icons/FFI_project/Motor.png</file>
+    <file>Icons/FFI_project/Pipe V.png</file>
+    <file>Icons/FFI_project/Pipe.png</file>
+    <file>Icons/FFI_project/Submersible mixer (Fan).png</file>
+    <file>Icons/FFI_project/Submersible mixer.png</file>
+    <file>Icons/FFI_project/T pipe junction 90.png</file>
+    <file>Icons/FFI_project/T pipe junction 180.png</file>
+    <file>Icons/FFI_project/T pipe junction 270.png</file>
+    <file>Icons/FFI_project/T pipe junction.png</file>
+    <file>Icons/FFI_project/TK-01 (water).png</file>
+    <file>Icons/FFI_project/TK-01.png</file>
+  </qresource>
+  <qresource prefix="assets">
+    <file>Assets/Color Palette.png</file>
+    <file>Assets/HexagonsBackground.jpg</file>
+    <file>Assets/logo_DIAC_white_resized.png</file>
+    <file>Assets/logo_DIAC_black_resized3.png</file>
+    <file>Assets/logo_DIAC_black_resized.png</file>
+    <file>Assets/HexagonsBackground_resized.png</file>
+    <file>Assets/Illustration FAQ.png</file>
+    <file>Assets/logo DIAC white.png</file>
+    <file>Assets/logo DIAC.png</file>
+    <file>Assets/logo vale.png</file>
+  </qresource>
+  <qresource prefix="alarm_logo">
+    <file>Icons/red/activeAlarmLogo-failure.png</file>
+    <file>Icons/red/activeAlarmLogo-warning.png</file>
+    <file>Icons/red/activityLog(black).png</file>
+    <file>Icons/red/eventLog(black).png</file>
+    <file>Icons/red/alarmLogo.png</file>
+  </qresource>
+  <qresource prefix="calibrationPage">
+    <file>Icons/CalibrationPage/Circled Play Button.png</file>
+    <file>Icons/CalibrationPage/Pause Button.png</file>
+    <file>Icons/CalibrationPage/Save.png</file>
+    <file>Icons/CalibrationPage/Stop Circled.png</file>
+  </qresource>
+  <qresource prefix="dashboardPage">
+    <file>Icons/DashboardPage/Expired.png</file>
+    <file>Icons/DashboardPage/Pressure Gauge.png</file>
+    <file>Icons/DashboardPage/Process.png</file>
+    <file>Icons/DashboardPage/down_arrow.png</file>
+    <file>Icons/DashboardPage/up_arrow.png</file>
+    <file>Icons/DashboardPage/gauge_icon.png</file>
+    <file>Icons/DashboardPage/graph_icon.png</file>
+    <file>Icons/DashboardPage/Pump.png</file>
+  </qresource>
+  <qresource prefix="dataPage">
+    <file>Icons/DataPage/Download.png</file>
+    <file>Icons/DataPage/Upload.png</file>
+  </qresource>
+  <qresource prefix="landingPage">
+    <file>Icons/LandingPage/Help.png</file>
+    <file>Icons/LandingPage/Info.png</file>
+    <file>Icons/LandingPage/Lock.png</file>
+  </qresource>
+  <qresource prefix="maintenancePage">
+    <file>Icons/MaintenancePage/Add.png</file>
+    <file>Icons/MaintenancePage/Paper Plane.png</file>
+  </qresource>
+  <qresource prefix="sideBar">
+    <file>Icons/SideBar/Chevron Left.png</file>
+    <file>Icons/SideBar/Edit Pie Chart Report.png</file>
+    <file>Icons/SideBar/Export.png</file>
+    <file>Icons/SideBar/menu_black.png</file>
+    <file>Icons/SideBar/menu.png</file>
+    <file>Icons/SideBar/activityLog(white).png</file>
+    <file>Icons/SideBar/Help.png</file>
+    <file>Icons/SideBar/Import.png</file>
+    <file>Icons/SideBar/Logout.png</file>
+    <file>Icons/SideBar/Paper Map.png</file>
+  </qresource>
+  <qresource prefix="topBar">
+    <file>Icons/TopBar/Expired.png</file>
+    <file>Icons/TopBar/Google Sheets.png</file>
+    <file>Icons/TopBar/Alarm.png</file>
+    <file>Icons/TopBar/Calibration.png</file>
+    <file>Icons/TopBar/Icon Notification.png</file>
+    <file>Icons/TopBar/dashboard.png</file>
+    <file>Icons/TopBar/Data.png</file>
+    <file>Icons/TopBar/Maintenance.png</file>
+    <file>Icons/TopBar/Settings.png</file>
+    <file>Icons/TopBar/Tools.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,34 @@
+/*----------------------QLabel----------------------*/
+QLabel
+{
+    font-family: dejavu;
+}
+
+/*----------------------QWidget----------------------*/
+QWidget#loginWindow
+{
+    background-color: hsl(118, 84%, 84%);
+}
+
+QWidget#loginSide
+{
+    background-color: white;
+    border-radius: 20px;
+}
+
+/*----------------------QLineEdit----------------------*/
+QLineEdit
+{
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 85%);
+}
+
+/*----------------------QPushButton----------------------*/
+QPushButton
+{
+    background-color: hsl(129, 100%, 44%);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}

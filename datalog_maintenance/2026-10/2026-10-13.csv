@@ -1,0 +1,155 @@
+Time,Item,Action,User,Status
+2026-10-13 11:04:54,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:04:54,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:04:54,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:04:54,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:09:23,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:09:23,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:09:23,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:09:23,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:11:32,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:11:32,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:11:33,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:11:33,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:11:52,FT_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:11:52,FT_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:11:52,FT_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:11:52,FT_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:11:52,FT_102 LO,Auto-generated: Auto-Detected: Low Level Detected (2.2) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:11:52,FT_102 LO,Auto-generated: Auto-Detected: Low Level Detected (2.2) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:11:52,FT_102 LL,Auto-generated: Auto-Detected: Low Low Level Detected (2.1) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:11:52,FT_102 LL,Auto-generated: Auto-Detected: Low Low Level Detected (2.1) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:11:52,FT_103 LO,Auto-generated: Auto-Detected: Low Level Detected (5.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:11:52,FT_103 LO,Auto-generated: Auto-Detected: Low Level Detected (5.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:11:52,FT_103 LL,Auto-generated: Auto-Detected: Low Low Level Detected (4.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:11:52,FT_103 LL,Auto-generated: Auto-Detected: Low Low Level Detected (4.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:12:53,FT_103 LL,Alarm Acknowledged via Pop-up. Problem Checked.,admin,Done
+2026-10-13 11:12:54,FT_103 LO,Alarm Acknowledged via Pop-up. Problem Checked.,admin,Done
+2026-10-13 11:12:54,FT_102 LL,Alarm Acknowledged via Pop-up. Problem Checked.,admin,Done
+2026-10-13 11:12:54,FT_102 LO,Alarm Acknowledged via Pop-up. Problem Checked.,admin,Done
+2026-10-13 11:12:55,FT_101 LL,Alarm Acknowledged via Pop-up. Problem Checked.,admin,Done
+2026-10-13 11:12:55,FT_101 LO,Alarm Acknowledged via Pop-up. Problem Checked.,admin,Done
+2026-10-13 11:12:55,DO_101 LL,Alarm Acknowledged via Pop-up. Problem Checked.,admin,Done
+2026-10-13 11:12:56,DO_101 LO,Alarm Acknowledged via Pop-up. Problem Checked.,admin,Done
+2026-10-13 11:13:22,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.87,SYSTEM,Pending
+2026-10-13 11:13:22,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.87,SYSTEM,Pending
+2026-10-13 11:16:09,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 11:16:09,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 11:29:30,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 11:29:30,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 11:35:36,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 11:35:36,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 11:37:51,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 11:37:51,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 11:45:07,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 11:45:07,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 11:47:03,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:47:03,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:47:03,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:47:03,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:50:02,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:50:02,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:50:02,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:50:02,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:51:19,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 11:51:19,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 11:53:51,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 11:53:51,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 11:54:36,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:54:36,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:54:36,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:54:36,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:54:57,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 11:54:57,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 11:55:59,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:55:59,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:55:59,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:55:59,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 11:56:18,FT_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:56:18,FT_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:56:18,FT_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:56:18,FT_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:56:18,FT_102 LO,Auto-generated: Auto-Detected: Low Level Detected (2.2) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:56:18,FT_102 LO,Auto-generated: Auto-Detected: Low Level Detected (2.2) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:56:19,FT_102 LL,Auto-generated: Auto-Detected: Low Low Level Detected (2.1) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:56:19,FT_102 LL,Auto-generated: Auto-Detected: Low Low Level Detected (2.1) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:56:19,FT_103 LO,Auto-generated: Auto-Detected: Low Level Detected (5.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:56:19,FT_103 LO,Auto-generated: Auto-Detected: Low Level Detected (5.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:56:19,FT_103 LL,Auto-generated: Auto-Detected: Low Low Level Detected (4.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 11:56:19,FT_103 LL,Auto-generated: Auto-Detected: Low Low Level Detected (4.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 12:06:06,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 12:06:06,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 12:06:07,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 12:06:07,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 12:06:25,FT_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 12:06:25,FT_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 12:06:26,FT_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 12:06:26,FT_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 12:06:26,FT_102 LO,Auto-generated: Auto-Detected: Low Level Detected (2.2) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 12:06:26,FT_102 LO,Auto-generated: Auto-Detected: Low Level Detected (2.2) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 12:06:26,FT_102 LL,Auto-generated: Auto-Detected: Low Low Level Detected (2.1) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 12:06:26,FT_102 LL,Auto-generated: Auto-Detected: Low Low Level Detected (2.1) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 12:06:27,FT_103 LO,Auto-generated: Auto-Detected: Low Level Detected (5.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 12:06:27,FT_103 LO,Auto-generated: Auto-Detected: Low Level Detected (5.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 12:06:27,FT_103 LL,Auto-generated: Auto-Detected: Low Low Level Detected (4.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 12:06:27,FT_103 LL,Auto-generated: Auto-Detected: Low Low Level Detected (4.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 14:07:28,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:07:28,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:07:28,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:07:28,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:08:41,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:08:41,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:08:41,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:08:41,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:09:30,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:09:30,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:09:30,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:09:30,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:12:36,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:12:36,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:12:36,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:12:36,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:12:55,FT_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 14:12:55,FT_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 14:12:55,FT_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 14:12:55,FT_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 14:12:56,FT_102 LO,Auto-generated: Auto-Detected: Low Level Detected (2.2) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 14:12:56,FT_102 LO,Auto-generated: Auto-Detected: Low Level Detected (2.2) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 14:12:56,FT_102 LL,Auto-generated: Auto-Detected: Low Low Level Detected (2.1) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 14:12:56,FT_102 LL,Auto-generated: Auto-Detected: Low Low Level Detected (2.1) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 14:12:56,FT_103 LO,Auto-generated: Auto-Detected: Low Level Detected (5.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 14:12:56,FT_103 LO,Auto-generated: Auto-Detected: Low Level Detected (5.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 14:12:56,FT_103 LL,Auto-generated: Auto-Detected: Low Low Level Detected (4.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 14:12:56,FT_103 LL,Auto-generated: Auto-Detected: Low Low Level Detected (4.0) (> 20s). Val: 0.00,SYSTEM,Pending
+2026-10-13 14:14:07,FT_103 LL,Alarm Acknowledged via Pop-up. Problem Checked.,admin,Done
+2026-10-13 14:14:09,FT_103 LO,Alarm Acknowledged via Pop-up. Problem Checked.,admin,Done
+2026-10-13 14:14:47,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 14:14:47,LT_101 HI,Auto-generated: Auto-Detected: High Level Detected (1.85) (> 5s). Val: 1.86,SYSTEM,Pending
+2026-10-13 14:21:27,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:21:27,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:21:27,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:21:27,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:23:20,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:23:20,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:23:20,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:23:20,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:25:05,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:25:05,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:25:05,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:25:05,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:27:33,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:27:33,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:27:33,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:27:33,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:28:36,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:28:36,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:28:37,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:28:37,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:30:01,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:30:01,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:30:01,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:30:01,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:32:28,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:32:28,DO_101 LO,Auto-generated: Auto-Detected: Low Level Detected (2.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:32:28,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending
+2026-10-13 14:32:28,DO_101 LL,Auto-generated: Auto-Detected: Low Low Level Detected (1.0) (> 0s). Val: 0.80,SYSTEM,Pending

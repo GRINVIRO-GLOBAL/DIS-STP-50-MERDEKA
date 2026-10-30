@@ -1,0 +1,12 @@
+{
+    "system_mode": "MANUAL",
+    "smart_flags": {
+        "TP_02": false,
+        "EQ_GROUP": false,
+        "MBR_GROUP": false
+    },
+    "estop_active": false,
+    "soft_emergency": true,
+    "blower_hz": 30.0,
+    "sm_duration_minutes": 60.0
+}

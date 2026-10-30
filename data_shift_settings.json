@@ -1,0 +1,16 @@
+{
+    "combo_tpin": "2 jam",
+    "combo_tp01": "2 jam",
+    "combo_tp02": "2 jam",
+    "combo_tp03": "2 jam",
+    "combo_bl01": "2 jam",
+    "combo_sm": "60 menit",
+    "spin_siklus_tp03": 3,
+    "line_ceb": "120",
+    "line_soaking": "1800",
+    "line_aeration": "600",
+    "line_flushing": "60",
+    "mbr_service_sec": 480,
+    "mbr_slack_sec": 60,
+    "mbr_backwash_sec": 120
+}
